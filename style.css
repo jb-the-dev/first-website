@@ -2,144 +2,156 @@
 */
 /*TODO update color palette above*/
 
-html, body {
-    width: 100%;
-    height: auto;
-  }
-  
-  body {
-    background-image: linear-gradient(#3f59da, #ef39fc);
-  }
-  
-  header {
-    margin-top: 4px;
-    padding: 5px;
-  }
-  
-  header nav {
-    display: flex;
-    justify-content: center;
-  }
+html,
+body {
+  width: 100%;
+  height: auto;
+}
 
-  header nav ul {
-    display: flex;
-    padding-left: 0;
-    list-style: none;
-  }
+body {
+  background-image: linear-gradient(#3f59da, #ef39fc);
+}
 
-  header nav ul li a {
-    text-decoration: none;
-    margin: 0 20px 0 0;
-    font-family: "Baumans", cursive;
-    font-size: 24px;
-  }
+header {
+  margin-top: 4px;
+  padding: 5px;
+}
 
-  header nav ul li:last-child a {
-    margin-right: 0;
-  }
+header nav {
+  display: flex;
+  justify-content: center;
+}
 
-  h1, h2, h3 {
-    font-family: "Baumans", sans-serif;
-  }
+header nav ul {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
 
-  p {
-    font-family: "Baumans", cursive;
-    color: white
-  }
-  
-  h1 {  
-    font-size: 50px;
-    color: white;
-    text-align: center;
-  }
-  
-  h2 {
-    font-size: 36px;
-    color: white;
-    text-align: center;
-  }
-  
-  h3 {
-    font-size: 14px;
-    color: white;
-    text-align: center;
-    padding: 10px;
-  }
-  
-  /*centers the Intro text*/
-  main > p {
-    text-align: center;
-  }
-  
-  ul, ol, li, a {
-    font-family: 'Baumans', cursive;
-    color: peachpuff;
-  }
-  
-  ol {
+header nav ul li a {
+  text-decoration: none;
+  margin: 0 20px 0 0;
+  font-family: "Baumans", cursive;
+  font-size: 24px;
+}
+
+header nav ul li:last-child a {
+  margin-right: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Baumans", sans-serif;
+}
+
+p {
+  font-family: "Baumans", cursive;
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/*centers the Intro text*/
+main > p {
+  text-align: center;
+}
+
+ul,
+ol,
+li,
+a {
+  font-family: "Baumans", cursive;
+  color: peachpuff;
+}
+
+ol {
   font-size: 18px;
-  }
-  
-  footer {
-    background-color: #4900ff;
-    margin-top: 30px
-  }
-  
-  hr {
-    background-color: #00b8ff;
-    border-color: #00b8ff;
-    height: 4px;
-    border-radius: 50%;
-  }
-  
-  /*When a web browser is larger than 600px*/
-  @media all and (min-width: 600px) {
-    header {
-      display: flex;
-      justify-content: space-between;
-      padding: 0 30px;
-    }
-    
-    header h1 {
-      margin: 14px 0;
-      padding-top: 0;
-    }
+}
 
-    header nav {
-      align-self: center;
-    }
+footer {
+  background-color: #4900ff;
+  margin-top: 30px;
+}
 
-    header nav ul li a:hover {
-      color: lavender
-    }
+hr {
+  background-color: #00b8ff;
+  border-color: #00b8ff;
+  height: 4px;
+  border-radius: 50%;
+}
+
+/*When a web browser is larger than 600px*/
+@media all and (min-width: 600px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
   }
 
-  /*Classes*/
-  .img-center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    border-radius: 20%;
+  header h1 {
+    margin: 14px 0;
+    padding-top: 0;
   }
-  
-  .map-center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
-    border-radius: 20%;
+
+  header nav {
+    align-self: center;
   }
-  
-  .wrapper {
-    max-width: 960px;
-    margin: auto;
-    padding-left: 10px;
-    padding-right: 10px;
+
+  header nav ul li a:hover {
+    color: lavender;
   }
-  
-  /*Pseudo-classes*/
-  a:link    { color: peachpuff;  }
-  /* a:visited { color: #570057;   } */
-  a:hover   { color: lavender; }
-  a:active  { color: #f3a412;  } 
+}
+
+/*Classes*/
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border-radius: 20%;
+}
+
+.map-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  border-radius: 20%;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*Pseudo-classes*/
+a:link {
+  color: peachpuff;
+}
+/* a:visited { color: #570057;   } */
+a:hover {
+  color: lavender;
+}
+a:active {
+  color: #f3a412;
+}
