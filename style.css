@@ -34,19 +34,15 @@ html, body {
   
   h2 {
     font-size: 36px;
-    color: #90ffdc;
+    color: white;
     text-align: center;
   }
   
   h3 {
     font-size: 14px;
-    color: peachpuff;
+    color: white;
     text-align: center;
     padding: 10px;
-  }
-  
-  p {
-    color: #87cbac;
   }
   
   /*centers the Intro text*/
@@ -55,7 +51,7 @@ html, body {
   }
   
   ul, ol, li, a {
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Fugaz One', cursive;
     color: peachpuff;
   }
   
@@ -64,13 +60,13 @@ html, body {
   }
   
   footer {
-    background-color: #383838;
+    background-color: #4900ff;
     margin-top: 30px
   }
   
   hr {
-    background-color: #8ac4ff;
-    border-color: #8ac4ff;
+    background-color: #00b8ff;
+    border-color: #00b8ff;
     height: 4px;
     border-radius: 50%;
   }
@@ -93,8 +89,10 @@ html, body {
   }
   
   .wrapper {
-    width: 350px;
+    max-width: 960px;
     margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   
   /*Pseudo-classes*/
